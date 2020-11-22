@@ -15,9 +15,9 @@ import (
 	"github.com/GoAdminGroup/go-admin/template/chartjs"
 	"github.com/gin-gonic/gin"
 
-	"github.com/abserari/ferula/new/models"
-	"github.com/abserari/ferula/new/pages"
-	"github.com/abserari/ferula/new/tables"
+	"github.com/abserari/ferula/smallprogram/models"
+	"github.com/abserari/ferula/smallprogram/pages"
+	"github.com/abserari/ferula/smallprogram/tables"
 )
 
 func main() {

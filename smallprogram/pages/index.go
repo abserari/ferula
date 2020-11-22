@@ -266,10 +266,10 @@ func GetDashBoard(ctx *context.Context) (types.Panel, error) {
 	 * Small Box
 	/**************************/
 
-	smallbox1 := smallbox.New().SetColor("blue").SetIcon("ion-ios-gear-outline").SetUrl("/").SetTitle("new users").SetValue("345￥").GetContent()
-	smallbox2 := smallbox.New().SetColor("yellow").SetIcon("ion-ios-cart-outline").SetUrl("/").SetTitle("new users").SetValue("80%").GetContent()
-	smallbox3 := smallbox.New().SetColor("red").SetIcon("fa-user").SetUrl("/").SetTitle("new users").SetValue("645￥").GetContent()
-	smallbox4 := smallbox.New().SetColor("green").SetIcon("ion-ios-cart-outline").SetUrl("/").SetTitle("new users").SetValue("889￥").GetContent()
+	smallbox1 := smallbox.New().SetColor("blue").SetIcon("ion-ios-gear-outline").SetUrl("/").SetTitle("smallprogram users").SetValue("345￥").GetContent()
+	smallbox2 := smallbox.New().SetColor("yellow").SetIcon("ion-ios-cart-outline").SetUrl("/").SetTitle("smallprogram users").SetValue("80%").GetContent()
+	smallbox3 := smallbox.New().SetColor("red").SetIcon("fa-user").SetUrl("/").SetTitle("smallprogram users").SetValue("645￥").GetContent()
+	smallbox4 := smallbox.New().SetColor("green").SetIcon("ion-ios-cart-outline").SetUrl("/").SetTitle("smallprogram users").SetValue("889￥").GetContent()
 
 	col1 := colComp.SetSize(size).SetContent(smallbox1).GetContent()
 	col2 := colComp.SetSize(size).SetContent(smallbox2).GetContent()
@@ -345,7 +345,7 @@ at the present moment; and yet I feel that I never was a greater artist than now
 The European languages are members of the same family. Their separate existence is a myth.
 For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ
 in their grammar, their pronunciation and their most common words. Everyone realizes why a
-new common language would be desirable: one could refuse to pay expensive translators. To
+smallprogram common language would be desirable: one could refuse to pay expensive translators. To
 achieve this, it would be necessary to have uniform grammar, pronunciation and more common
 words. If several languages coalesce, the grammar of the resulting language is more simple
 and regular than that of the individual languages.
