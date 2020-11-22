@@ -1,0 +1,216 @@
+2020-11-22T10:25:07.204+0800	[31mERROR[0m	remote_server/remote_server.go:74	login to remote GoAdmin server error: 用户不存在
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/modules/remote_server.Login
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/modules/remote_server/remote_server.go:74
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).ServerLogin
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/plugins/admin/controller/plugins.go:508
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).ServerLogin
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/plugins/admin/modules/guard/server_login.go:33
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/plugins/admin/router.go:104
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	C:/Users/34903/sdk/go1.15.2/src/net/http/server.go:2843
+net/http.(*conn).serve
+	C:/Users/34903/sdk/go1.15.2/src/net/http/server.go:1925
+2020-11-22T10:25:33.066+0800	[31mERROR[0m	controller/plugins.go:438	download plugins, rename errormap[error:rename D:/gopath/pkg/mod/github.com/GoAdminGroup/filemanager-0.0.6 D:/gopath/pkg/mod/github.com/GoAdminGroup/filemanager@v0.0.6: Access is denied. nowPath:D:/gopath/pkg/mod/github.com/GoAdminGroup/filemanager-0.0.6 rawPath:D:/gopath/pkg/mod/github.com/GoAdminGroup/filemanager]
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).PluginDownload
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/plugins/admin/controller/plugins.go:438
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/plugins/admin/router.go:104
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	C:/Users/34903/sdk/go1.15.2/src/net/http/server.go:2843
+net/http.(*conn).serve
+	C:/Users/34903/sdk/go1.15.2/src/net/http/server.go:1925
+2020-11-22T10:25:59.863+0800	[31mERROR[0m	controller/plugins.go:438	download plugins, rename errormap[error:rename D:/gopath/pkg/mod/github.com/GoAdminGroup/filemanager-0.0.6 D:/gopath/pkg/mod/github.com/GoAdminGroup/filemanager@v0.0.6: Access is denied. nowPath:D:/gopath/pkg/mod/github.com/GoAdminGroup/filemanager-0.0.6 rawPath:D:/gopath/pkg/mod/github.com/GoAdminGroup/filemanager]
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).PluginDownload
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/plugins/admin/controller/plugins.go:438
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/plugins/admin/router.go:104
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	C:/Users/34903/sdk/go1.15.2/src/net/http/server.go:2843
+net/http.(*conn).serve
+	C:/Users/34903/sdk/go1.15.2/src/net/http/server.go:1925
+2020-11-22T10:26:04.799+0800	[31mERROR[0m	controller/plugins.go:438	download plugins, rename errormap[error:rename D:/gopath/pkg/mod/github.com/GoAdminGroup/librarian-0.0.5 D:/gopath/pkg/mod/github.com/GoAdminGroup/librarian@v0.0.5: Access is denied. nowPath:D:/gopath/pkg/mod/github.com/GoAdminGroup/librarian-0.0.5 rawPath:D:/gopath/pkg/mod/github.com/GoAdminGroup/librarian]
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).PluginDownload
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/plugins/admin/controller/plugins.go:438
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/plugins/admin/router.go:104
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	C:/Users/34903/sdk/go1.15.2/src/net/http/server.go:2843
+net/http.(*conn).serve
+	C:/Users/34903/sdk/go1.15.2/src/net/http/server.go:1925
+2020-11-22T10:27:24.752+0800	[31mERROR[0m	controller/plugins.go:438	download plugins, rename errormap[error:rename D:/gopath/pkg/mod/github.com/GoAdminGroup/librarian-0.0.5 D:/gopath/pkg/mod/github.com/GoAdminGroup/librarian@v0.0.5: Access is denied. nowPath:D:/gopath/pkg/mod/github.com/GoAdminGroup/librarian-0.0.5 rawPath:D:/gopath/pkg/mod/github.com/GoAdminGroup/librarian]
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).PluginDownload
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/plugins/admin/controller/plugins.go:438
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/plugins/admin/router.go:104
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	C:/Users/34903/sdk/go1.15.2/src/net/http/server.go:2843
+net/http.(*conn).serve
+	C:/Users/34903/sdk/go1.15.2/src/net/http/server.go:1925
+2020-11-22T10:27:40.802+0800	[31mERROR[0m	controller/plugins.go:438	download plugins, rename errormap[error:rename D:/gopath/pkg/mod/github.com/GoAdminGroup/filemanager-0.0.6 D:/gopath/pkg/mod/github.com/GoAdminGroup/filemanager@v0.0.6: Access is denied. nowPath:D:/gopath/pkg/mod/github.com/GoAdminGroup/filemanager-0.0.6 rawPath:D:/gopath/pkg/mod/github.com/GoAdminGroup/filemanager]
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).PluginDownload
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/plugins/admin/controller/plugins.go:438
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/plugins/admin/router.go:104
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	D:/gopath/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.17/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	D:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	C:/Users/34903/sdk/go1.15.2/src/net/http/server.go:2843
+net/http.(*conn).serve
+	C:/Users/34903/sdk/go1.15.2/src/net/http/server.go:1925
