@@ -8,7 +8,7 @@ import (
 
 	_ "github.com/GoAdminGroup/go-admin/adapter/gin"              // web framework adapter
 	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql" // sql driver
-	_ "github.com/GoAdminGroup/themes/adminlte"                   // ui theme
+	_ "github.com/abserari/themes/adminlte"                   // ui theme
 
 	"github.com/GoAdminGroup/go-admin/engine"
 	"github.com/GoAdminGroup/go-admin/template"
