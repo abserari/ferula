@@ -1,2 +1,0 @@
-2020-11-22T11:08:55.332+0800	controller/handler.go:24	[GoAdmin] [37;44m 200 [0m [37;104m GET   [0m /admin/info/site/edit
-2020-11-22T11:09:10.735+0800	controller/handler.go:24	[GoAdmin] [37;44m 200 [0m [37;104m POST   [0m /admin/edit/site
